@@ -1,0 +1,70 @@
+// Fonts
+
+@import "variables";
+@import "ui-elements";
+@import "fonts";
+@import "typography";
+@import "transitions";
+@import "mixins";
+@import '@mantine/core/styles.css';
+@import '@mantine/dates/styles.css';
+@import '@mantine/notifications/styles.css';
+@import '@mantine/core/styles.layer.css';
+@import 'mantine-datatable/styles.layer.css';
+@import '@mantine/charts/styles.css';
+
+html {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    -webkit-app-region: drag;
+    font-family: $font-family-base;
+    padding: 0;
+    margin: 0;
+    background-color: var(--mantine-color-mainContentColor-9) !important;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden !important;
+    font-family: $font-family-base !important;
+
+}
+
+.mantine-BarChart-bar {
+    background-color: red;
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    border-radius: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
